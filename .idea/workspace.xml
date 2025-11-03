@@ -1,0 +1,109 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="6b03a433-c617-41e3-bce4-d38f0d7f2704" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/client/src/assets/add_icon.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/client/src/assets/arrow.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/client/src/assets/assets.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/client/src/assets/bin_icon.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/client/src/assets/blog_icon.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/client/src/assets/blog_pic_1.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/client/src/assets/blog_pic_10.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/client/src/assets/blog_pic_2.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/client/src/assets/blog_pic_3.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/client/src/assets/blog_pic_4.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/client/src/assets/blog_pic_5.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/client/src/assets/blog_pic_6.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/client/src/assets/blog_pic_7.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/client/src/assets/blog_pic_8.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/client/src/assets/blog_pic_9.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/client/src/assets/comment_icon.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/client/src/assets/cross_icon.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/client/src/assets/dashboard_icon_1.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/client/src/assets/dashboard_icon_2.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/client/src/assets/dashboard_icon_3.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/client/src/assets/dashboard_icon_4.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/client/src/assets/email_icon.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/client/src/assets/facebook_icon.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/client/src/assets/favicon.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/client/src/assets/googleplus_icon.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/client/src/assets/gradientBackground.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/client/src/assets/home_icon.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/client/src/assets/list_icon.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/client/src/assets/logo.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/client/src/assets/logo_light.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/client/src/assets/rich-text-css.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/client/src/assets/star_icon.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/client/src/assets/tick_icon.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/client/src/assets/twitter_icon.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/client/src/assets/upload_area.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/client/src/assets/user_icon.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/client/src/components/BlogList.jsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/client/src/components/Header.jsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/client/src/components/Navbar.jsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/client/src/context/AppContext.jsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/client/src/pages/Blog.jsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/client/src/pages/Home.jsx" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="ProjectColorInfo"><![CDATA[{
+  "associatedIndex": 4
+}]]></component>
+  <component name="ProjectId" id="34zEhwmegXkplaDeQalwzSc2hU1" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "ModuleVcsDetector.initialDetectionPerformed": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "RunOnceActivity.TerminalTabsStorage.copyFrom.TerminalArrangementManager.252": "true",
+    "RunOnceActivity.git.unshallow": "true",
+    "git-widget-placeholder": "main",
+    "last_opened_file_path": "/Users/birgulkurtcu/Developer/blogwithai/client/src/assets",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm",
+    "vue.rearranger.settings.migration": "true"
+  }
+}]]></component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/client/src/assets" />
+    </key>
+  </component>
+  <component name="SharedIndexes">
+    <attachedChunks>
+      <set>
+        <option value="bundled-js-predefined-d6986cc7102b-3aa1da707db6-JavaScript-WS-252.27397.92" />
+      </set>
+    </attachedChunks>
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="6b03a433-c617-41e3-bce4-d38f0d7f2704" name="Changes" comment="" />
+      <created>1762208122106</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1762208122106</updated>
+      <workItem from="1762208123102" duration="3808000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+</project>

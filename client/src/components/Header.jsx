@@ -14,7 +14,7 @@ const Header = () => {
                 </div>
                 <h1 className='text-3xl sm:text-6xl font-semibold sm:leading-16 texxt-gray-700'>
                     Your own
-                    <span className='text-primary'>blogging</span> <br/>platform.</h1>
+                    <span className='text-primary'> blogging</span><br/> platform</h1>
                 <p className='my-6 sm:my-8 max-w-2xl m-auto max-sm:text-xs text-gray-500'> This is your space to think out loud,
                     to share what matters and to write without filters. Whether it's one word or a thousand, your story
                     starts right here.</p>

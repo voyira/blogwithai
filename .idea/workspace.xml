@@ -4,12 +4,18 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="6b03a433-c617-41e3-bce4-d38f0d7f2704" name="Changes" comment="BlogCard, BlogList.jsx">
-      <change afterPath="$PROJECT_DIR$/client/src/components/Footer.jsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/client/src/components/Newsletter.jsx" afterDir="false" />
+    <list default="true" id="6b03a433-c617-41e3-bce4-d38f0d7f2704" name="Changes" comment="BlogTableItem.jsx added">
+      <change afterPath="$PROJECT_DIR$/client/src/components/admin/CommentTableItem.jsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/server/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/server/server.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/client/package-lock.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/client/package.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/client/src/App.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/App.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/client/src/components/Header.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/components/Header.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/client/src/pages/Home.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/pages/Home.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/src/components/admin/BlogTableItem.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/components/admin/BlogTableItem.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/src/pages/admin/AddBlog.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/pages/admin/AddBlog.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/src/pages/admin/Comments.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/pages/admin/Comments.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/src/pages/admin/ListBlog.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/pages/admin/ListBlog.jsx" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -31,6 +37,9 @@
     &quot;accountId&quot;: &quot;4334aa07-96c4-4969-9be8-a58eab580655&quot;
   }
 }</component>
+  <component name="ProblemsViewState">
+    <option name="selectedTabId" value="ProjectErrors" />
+  </component>
   <component name="ProjectColorInfo">{
   &quot;associatedIndex&quot;: 4
 }</component>
@@ -39,23 +48,24 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "ModuleVcsDetector.initialDetectionPerformed": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "RunOnceActivity.TerminalTabsStorage.copyFrom.TerminalArrangementManager.252": "true",
-    "RunOnceActivity.git.unshallow": "true",
-    "git-widget-placeholder": "main",
-    "last_opened_file_path": "/Users/birgulkurtcu/Developer/blogwithai/client/src/assets",
-    "node.js.detected.package.eslint": "true",
-    "node.js.detected.package.tslint": "true",
-    "node.js.selected.package.eslint": "(autodetect)",
-    "node.js.selected.package.tslint": "(autodetect)",
-    "nodejs_package_manager_path": "npm",
-    "run.code.analysis.last.selected.profile": "pProject Default",
-    "vue.rearranger.settings.migration": "true"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;ModuleVcsDetector.initialDetectionPerformed&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.TerminalTabsStorage.copyFrom.TerminalArrangementManager.252&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.git.unshallow&quot;: &quot;true&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;main&quot;,
+    &quot;last_opened_file_path&quot;: &quot;/Users/birgulkurtcu/Developer/blogwithai/client/src/assets&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;run.code.analysis.last.selected.profile&quot;: &quot;pProject Default&quot;,
+    &quot;ts.external.directory.path&quot;: &quot;/Applications/WebStorm.app/Contents/plugins/javascript-plugin/jsLanguageServicesImpl/external&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/client/src/assets" />
@@ -76,7 +86,11 @@
       <option name="presentableId" value="Default" />
       <updated>1762208122106</updated>
       <workItem from="1762208123102" duration="4152000" />
-      <workItem from="1762348779152" duration="7108000" />
+      <workItem from="1762348779152" duration="7193000" />
+      <workItem from="1762367881636" duration="8256000" />
+      <workItem from="1762515101497" duration="112000" />
+      <workItem from="1762515221453" duration="1157000" />
+      <workItem from="1762549720707" duration="3382000" />
     </task>
     <task id="LOCAL-00001" summary="first commit">
       <option name="closed" value="true" />
@@ -102,15 +116,49 @@
       <option name="project" value="LOCAL" />
       <updated>1762357283915</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="Footer.jsx , Newsletter.jsx added">
+      <option name="closed" value="true" />
+      <created>1762358736641</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1762358736641</updated>
+    </task>
+    <task id="LOCAL-00005" summary="admin pages added">
+      <option name="closed" value="true" />
+      <created>1762446737412</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1762446737412</updated>
+    </task>
+    <task id="LOCAL-00006" summary="BlogTableItem.jsx added">
+      <option name="closed" value="true" />
+      <created>1762549985245</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1762549985245</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
   </component>
+  <component name="UnknownFeatures">
+    <option featureType="dependencySupport" implementationName="javascript:npm:react" />
+    <option featureType="dependencySupport" implementationName="executable:docker" />
+    <option featureType="dependencySupport" implementationName="javascript:npm:tailwindcss" />
+    <option featureType="dependencySupport" implementationName="javascript:npm:vite" />
+    <option featureType="dependencySupport" implementationName="executable:kubectl" />
+  </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="first commit" />
     <MESSAGE value="BlogCard, BlogList.jsx" />
-    <option name="LAST_COMMIT_MESSAGE" value="BlogCard, BlogList.jsx" />
+    <MESSAGE value="Footer.jsx , Newsletter.jsx added" />
+    <MESSAGE value="admin pages added" />
+    <MESSAGE value="BlogTableItem.jsx added" />
+    <option name="LAST_COMMIT_MESSAGE" value="BlogTableItem.jsx added" />
   </component>
 </project>

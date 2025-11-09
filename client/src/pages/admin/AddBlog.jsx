@@ -3,9 +3,12 @@ import {assets, blogCategories} from "../../assets/assets.js";
 import quillRef from "tailwindcss/dist/colors.js";
 import editorRef from "tailwindcss/dist/colors.js";
 import Quill from "quill";
+import {useAppContext} from "../../context/AppContext.jsx";
+import toast from "react-hot-toast";
+import axios from "axios";
 
 const AddBlog = () => {
-    // const {axios} = useAppContext()
+    const {axios} = useAppContext()
 
     const [isAdding, setIsAdding] = useState(false)
     const [loading, setLoading] = useState(false)
@@ -42,15 +45,16 @@ const AddBlog = () => {
 }
 
 const onSubmitHandler = async (e) => {
-    setIsAdding(true)
-    /*try {
+  try {
         e.preventDefault();
         setIsAdding(true)
 
         const blog = {
-            title, subtitle,
+            title,
+            subtitle,
             description: quillRef.current.root.innerHTML,
-            category, isPublished
+            category,
+            isPublished
         }
         const formData = new FormData();
         formData.append('blog', JSON.stringify(blog))
@@ -68,10 +72,9 @@ const onSubmitHandler = async (e) => {
         }
     } catch (error) {
         toast.error(error.message)
-
     } finally {
         setIsAdding(false)
-    }*/
+    }
 }
 useEffect(() => {
     // Initiate Quill only once
@@ -114,7 +117,7 @@ return (
             <p className='mt-4 text-blue-700'> Blog category </p>
             <select onChange={e => setCategory(e.target.value)} name="category"
                     className='mt-2 px-3 py-2 border text-gray-500 border-gray-300 outline-none rounded'>
-                <option value="">Select categroy</option>
+                <option value="">Select category</option>
                 {blogCategories.map((item, index) => {
                     return <option key={index} value={item}>{item}</option>
                 })}
@@ -125,11 +128,11 @@ return (
                        onChange={e => setIsPublished(e.target.checked)}/>
             </div>
             <button disabled={isAdding} type='submit'
-                    className='mt-8 w-40 h-10 bg-primary text-white rounded cursor-pointer text-sm'>{isAdding ? 'Adding.....' : 'Add Blog'}</button>
+                    className='mt-8 w-40 h-10 bg-primary text-white rounded cursor-pointer text-sm'>
+                {isAdding ? 'Adding.....' : 'Add Blog'}
+            </button>
         </div>
     </form>
 );
-}
-;
 
 export default AddBlog;

@@ -1,6 +1,7 @@
 import express from 'express'
 import { adminLogin, approveCommentById, deleteCommentById, getAllBlogsAdmin, getALlComments, getDashboard } from '../controllers/adminController.js';
 import auth from '../middleware/auth.js';
+
 const adminRouter = express.Router();
 
 adminRouter.post('/login', adminLogin);

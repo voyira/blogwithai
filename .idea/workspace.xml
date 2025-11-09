@@ -4,18 +4,31 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="6b03a433-c617-41e3-bce4-d38f0d7f2704" name="Changes" comment="BlogTableItem.jsx added">
-      <change afterPath="$PROJECT_DIR$/client/src/components/admin/CommentTableItem.jsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/server/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/server/server.js" afterDir="false" />
+    <list default="true" id="6b03a433-c617-41e3-bce4-d38f0d7f2704" name="Changes" comment="db, gemini, imageKit config added">
+      <change afterPath="$PROJECT_DIR$/server/controllers/adminController.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/server/controllers/blogController.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/client/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/client/package-lock.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/client/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/client/package.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/client/src/App.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/App.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/src/components/BlogList.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/components/BlogList.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/src/components/Header.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/components/Header.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/src/components/Navbar.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/components/Navbar.jsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/client/src/components/admin/BlogTableItem.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/components/admin/BlogTableItem.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/src/components/admin/CommentTableItem.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/components/admin/CommentTableItem.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/src/components/admin/Login.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/components/admin/Login.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/src/context/AppContext.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/context/AppContext.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/src/main.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/main.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/src/pages/Blog.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/pages/Blog.jsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/client/src/pages/admin/AddBlog.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/pages/admin/AddBlog.jsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/client/src/pages/admin/Comments.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/pages/admin/Comments.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/src/pages/admin/Dashboard.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/pages/admin/Dashboard.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/src/pages/admin/Layout.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/pages/admin/Layout.jsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/client/src/pages/admin/ListBlog.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/pages/admin/ListBlog.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/server/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/server/package-lock.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/server/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/server/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/server/routes/adminRoutes.js" beforeDir="false" afterPath="$PROJECT_DIR$/server/routes/adminRoutes.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/server/server.js" beforeDir="false" afterPath="$PROJECT_DIR$/server/server.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -70,6 +83,10 @@
     <key name="CopyFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/client/src/assets" />
     </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/client/src/context" />
+      <recent name="$PROJECT_DIR$/client/src" />
+    </key>
   </component>
   <component name="SharedIndexes">
     <attachedChunks>
@@ -90,7 +107,10 @@
       <workItem from="1762367881636" duration="8256000" />
       <workItem from="1762515101497" duration="112000" />
       <workItem from="1762515221453" duration="1157000" />
-      <workItem from="1762549720707" duration="3382000" />
+      <workItem from="1762549720707" duration="3494000" />
+      <workItem from="1762602195923" duration="13658000" />
+      <workItem from="1762642422480" duration="330000" />
+      <workItem from="1762715206113" duration="3666000" />
     </task>
     <task id="LOCAL-00001" summary="first commit">
       <option name="closed" value="true" />
@@ -140,7 +160,55 @@
       <option name="project" value="LOCAL" />
       <updated>1762549985245</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="admin pages added">
+      <option name="closed" value="true" />
+      <created>1762553182327</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1762553182327</updated>
+    </task>
+    <task id="LOCAL-00008" summary="server.js added">
+      <option name="closed" value="true" />
+      <created>1762553202760</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1762553202760</updated>
+    </task>
+    <task id="LOCAL-00009" summary="models added">
+      <option name="closed" value="true" />
+      <created>1762619043031</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1762619043031</updated>
+    </task>
+    <task id="LOCAL-00010" summary="middleware added">
+      <option name="closed" value="true" />
+      <created>1762619055391</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1762619055391</updated>
+    </task>
+    <task id="LOCAL-00011" summary="Routes added">
+      <option name="closed" value="true" />
+      <created>1762619074787</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1762619074787</updated>
+    </task>
+    <task id="LOCAL-00012" summary="db, gemini, imageKit config added">
+      <option name="closed" value="true" />
+      <created>1762619108004</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1762619108004</updated>
+    </task>
+    <option name="localTasksCounter" value="13" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -152,13 +220,19 @@
     <option featureType="dependencySupport" implementationName="javascript:npm:tailwindcss" />
     <option featureType="dependencySupport" implementationName="javascript:npm:vite" />
     <option featureType="dependencySupport" implementationName="executable:kubectl" />
+    <option featureType="com.intellij.fileTypeFactory" implementationName=".env" />
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="first commit" />
     <MESSAGE value="BlogCard, BlogList.jsx" />
     <MESSAGE value="Footer.jsx , Newsletter.jsx added" />
-    <MESSAGE value="admin pages added" />
     <MESSAGE value="BlogTableItem.jsx added" />
-    <option name="LAST_COMMIT_MESSAGE" value="BlogTableItem.jsx added" />
+    <MESSAGE value="admin pages added" />
+    <MESSAGE value="server.js added" />
+    <MESSAGE value="models added" />
+    <MESSAGE value="middleware added" />
+    <MESSAGE value="Routes added" />
+    <MESSAGE value="db, gemini, imageKit config added" />
+    <option name="LAST_COMMIT_MESSAGE" value="db, gemini, imageKit config added" />
   </component>
 </project>

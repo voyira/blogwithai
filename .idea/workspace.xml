@@ -4,31 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="6b03a433-c617-41e3-bce4-d38f0d7f2704" name="Changes" comment="db, gemini, imageKit config added">
-      <change afterPath="$PROJECT_DIR$/server/controllers/adminController.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/server/controllers/blogController.js" afterDir="false" />
+    <list default="true" id="6b03a433-c617-41e3-bce4-d38f0d7f2704" name="Changes" comment="axios added client updated">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/client/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/client/package-lock.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/client/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/client/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/client/src/App.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/App.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/client/src/components/BlogList.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/components/BlogList.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/client/src/components/Header.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/components/Header.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/client/src/components/Navbar.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/components/Navbar.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/client/src/components/admin/BlogTableItem.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/components/admin/BlogTableItem.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/client/src/components/admin/CommentTableItem.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/components/admin/CommentTableItem.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/client/src/components/admin/Login.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/components/admin/Login.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/client/src/context/AppContext.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/context/AppContext.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/client/src/main.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/main.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/client/src/pages/Blog.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/pages/Blog.jsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/client/src/pages/admin/AddBlog.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/pages/admin/AddBlog.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/client/src/pages/admin/Comments.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/pages/admin/Comments.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/client/src/pages/admin/Dashboard.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/pages/admin/Dashboard.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/client/src/pages/admin/Layout.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/pages/admin/Layout.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/client/src/pages/admin/ListBlog.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/pages/admin/ListBlog.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/server/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/server/package-lock.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/server/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/server/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/server/routes/adminRoutes.js" beforeDir="false" afterPath="$PROJECT_DIR$/server/routes/adminRoutes.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/server/server.js" beforeDir="false" afterPath="$PROJECT_DIR$/server/server.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -110,7 +88,7 @@
       <workItem from="1762549720707" duration="3494000" />
       <workItem from="1762602195923" duration="13658000" />
       <workItem from="1762642422480" duration="330000" />
-      <workItem from="1762715206113" duration="3666000" />
+      <workItem from="1762715206113" duration="4807000" />
     </task>
     <task id="LOCAL-00001" summary="first commit">
       <option name="closed" value="true" />
@@ -208,7 +186,31 @@
       <option name="project" value="LOCAL" />
       <updated>1762619108004</updated>
     </task>
-    <option name="localTasksCounter" value="13" />
+    <task id="LOCAL-00013" summary="admin pages updated">
+      <option name="closed" value="true" />
+      <created>1762718923138</created>
+      <option name="number" value="00013" />
+      <option name="presentableId" value="LOCAL-00013" />
+      <option name="project" value="LOCAL" />
+      <updated>1762718923138</updated>
+    </task>
+    <task id="LOCAL-00014" summary="adminController.js , blogController.js added">
+      <option name="closed" value="true" />
+      <created>1762719024152</created>
+      <option name="number" value="00014" />
+      <option name="presentableId" value="LOCAL-00014" />
+      <option name="project" value="LOCAL" />
+      <updated>1762719024152</updated>
+    </task>
+    <task id="LOCAL-00015" summary="axios added client updated">
+      <option name="closed" value="true" />
+      <created>1762719098473</created>
+      <option name="number" value="00015" />
+      <option name="presentableId" value="LOCAL-00015" />
+      <option name="project" value="LOCAL" />
+      <updated>1762719098473</updated>
+    </task>
+    <option name="localTasksCounter" value="16" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -233,6 +235,9 @@
     <MESSAGE value="middleware added" />
     <MESSAGE value="Routes added" />
     <MESSAGE value="db, gemini, imageKit config added" />
-    <option name="LAST_COMMIT_MESSAGE" value="db, gemini, imageKit config added" />
+    <MESSAGE value="admin pages updated" />
+    <MESSAGE value="adminController.js , blogController.js added" />
+    <MESSAGE value="axios added client updated" />
+    <option name="LAST_COMMIT_MESSAGE" value="axios added client updated" />
   </component>
 </project>

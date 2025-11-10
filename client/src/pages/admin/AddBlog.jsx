@@ -3,6 +3,7 @@ import {assets, blogCategories} from "../../assets/assets.js";
 import Quill from "quill";
 import toast from "react-hot-toast";
 import {useAppContext} from "../../context/AppContext.jsx";
+import {parse} from "marked";
 
 const AddBlog = () => {
     const {axios} = useAppContext()
@@ -20,12 +21,10 @@ const AddBlog = () => {
     const [isPublished, setIsPublished] = useState(false);
 
     const generateContent = async () => {
-        setLoading(true);
         if (!title) return toast.error('Please enter a title ')
         try {
             setLoading(true);
             const {data} = await axios.post('api/blog/generate', {prompt: title})
-
             if (data.success) {
                 quillRef.current.root.innerHTML = parse(data.content)
             } else {
@@ -37,7 +36,6 @@ const AddBlog = () => {
             setLoading(false)
         }
     }
-
     const onSubmitHandler = async (e) => {
         try {
             e.preventDefault();
@@ -105,8 +103,7 @@ const AddBlog = () => {
                     )}
                     <button disabled={loading} type='button' onClick={generateContent}
                             className='absolute bottom-1 right-2 ml-2 text-xs text-white bg-emerald-700 px-4 py-1.5 rounded hover:underline cursor-pointer'>
-                        Generate
-                        With AI
+                        Generate With AI
                     </button>
                 </div>
                 <p className='mt-4 text-blue-700'> Blog category </p>

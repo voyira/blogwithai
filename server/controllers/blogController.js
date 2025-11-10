@@ -4,7 +4,6 @@ import Comment from "../models/Comment.js";
 import main from "../config/gemini.js";
 import imagekit from "../config/imageKit.js";
 
-// add blog
 export const addBlog = async (req, res) => {
     try {
         const {title, subTitle, description, category, isPublished} = JSON.parse(req.body.blog);

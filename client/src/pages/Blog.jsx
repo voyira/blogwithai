@@ -40,20 +40,17 @@ const Blog = () => {
         e.preventDefault();
         try {
             const {data} = await axios.post('/api/blog/add-comment', {blog: id, name, content});
-            if (data.success){
+            if (data.success) {
                 toast.success(data.message);
-                setName('')
-                setContent('')
-            }else{
+                await fetchComments();
+                setName('');
+                setContent('');
+            } else {
                 toast.error(data.message);
             }
         } catch (error) {
             toast.error(error.message);
         }
-    }
-    setComments((prev) => [...prev, newComment]);
-        setName("");
-        setContent("");
     }
     useEffect(() => {
         fetchBlogData()
@@ -122,4 +119,5 @@ const Blog = () => {
         </div>
     ) : <Loader/>
 
+}
 export default Blog;

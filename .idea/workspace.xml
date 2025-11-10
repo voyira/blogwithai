@@ -4,18 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="6b03a433-c617-41e3-bce4-d38f0d7f2704" name="Changes" comment="AddBlog.jsx updated">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/client/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/client/package-lock.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/client/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/client/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/client/src/components/BlogList.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/components/BlogList.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/client/src/pages/Blog.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/pages/Blog.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/client/src/pages/admin/AddBlog.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/pages/admin/AddBlog.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/server/config/gemini.js" beforeDir="false" afterPath="$PROJECT_DIR$/server/config/gemini.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/server/controllers/blogController.js" beforeDir="false" afterPath="$PROJECT_DIR$/server/controllers/blogController.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/server/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/server/package-lock.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/server/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/server/package.json" afterDir="false" />
-    </list>
+    <list default="true" id="6b03a433-c617-41e3-bce4-d38f0d7f2704" name="Changes" comment="gemini ai config added" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -97,7 +86,7 @@
       <workItem from="1762602195923" duration="13658000" />
       <workItem from="1762642422480" duration="330000" />
       <workItem from="1762715206113" duration="4946000" />
-      <workItem from="1762783584518" duration="2702000" />
+      <workItem from="1762783584518" duration="3153000" />
     </task>
     <task id="LOCAL-00001" summary="first commit">
       <option name="closed" value="true" />
@@ -227,7 +216,15 @@
       <option name="project" value="LOCAL" />
       <updated>1762720155739</updated>
     </task>
-    <option name="localTasksCounter" value="17" />
+    <task id="LOCAL-00017" summary="gemini ai config added">
+      <option name="closed" value="true" />
+      <created>1762786457016</created>
+      <option name="number" value="00017" />
+      <option name="presentableId" value="LOCAL-00017" />
+      <option name="project" value="LOCAL" />
+      <updated>1762786457016</updated>
+    </task>
+    <option name="localTasksCounter" value="18" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -256,6 +253,7 @@
     <MESSAGE value="adminController.js , blogController.js added" />
     <MESSAGE value="axios added client updated" />
     <MESSAGE value="AddBlog.jsx updated" />
-    <option name="LAST_COMMIT_MESSAGE" value="AddBlog.jsx updated" />
+    <MESSAGE value="gemini ai config added" />
+    <option name="LAST_COMMIT_MESSAGE" value="gemini ai config added" />
   </component>
 </project>
